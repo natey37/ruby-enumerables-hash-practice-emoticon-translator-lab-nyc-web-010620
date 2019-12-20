@@ -12,8 +12,8 @@ def load_library(file)
   emoticon_file.each do |meaning, emojis|
     english_emojis = emojis[0]
     japanese_emojis = emojis[1]
-    emoticon_library[:get_meaning][:japanese] = meaning
-    emoticon_library[:get_emoticon][:english] = 
+    emoticon_library[:get_meaning][japanese_emojis] = meaning
+    emoticon_library[:get_emoticon][english_emojis] = 
 end
 
 def get_japanese_emoticon
