@@ -9,7 +9,7 @@ def load_library(file)
     :get_meaning => {},
     :get_emoticon => {}
   }
-  
+  return emoticon_library
 end
 
 def get_japanese_emoticon
