@@ -24,7 +24,7 @@ def get_japanese_emoticon(file, emoticon)
   # code goes here
   emoticon_library = load_library(file)
   
-  if emoticon_library[:get_emoticon] = 
+  if emoticon_library[:get_emoticon].include?(emoticon)
     
 end
 
