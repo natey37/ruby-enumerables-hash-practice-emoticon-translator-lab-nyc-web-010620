@@ -9,6 +9,7 @@ def load_library(file)
     :get_meaning => {},
     :get_emoticon => {}
   }
+  puts emoticon_library
   return emoticon_library
 end
 
